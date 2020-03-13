@@ -1,0 +1,58 @@
+body {
+    font-size: 30px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-c {
+    align-items: center;
+}
+
+.justify-content-sb {
+    justify-content: space-between;
+}
+
+.m-left{
+    margin-left: auto;
+}
+.m-right{
+    margin-right: auto;
+}
+
+.mr-5{
+    margin-right: 5px;
+}
+
+.nav-wrapper .brand-logo{
+    position: static;
+}
+
+.m-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav .select-wrapper input.select-dropdown,
+nav .select-wrapper input.select-dropdown:focus {
+    margin: 0;
+    border-bottom: none;
+    color: #fff;
+}
+
+.input-field .select-wrapper .caret {
+    fill: #fff;
+}
+
+.form-section .datepicker-day-button {
+    color: #000000;
+}
+
+.form-section .row{
+    margin: 0;
+}
+
+.form-section .input-field {
+    margin-bottom: 0;
+}

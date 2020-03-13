@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper teal lighten-2">
+            <div class="container d-flex align-items-c ">
+                <i class="large material-icons">airplanemode_active</i>
+                <a href="#" class="brand-logo">Avia - ticket</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down m-left">
+                    <li>
+                        <div class="input-field">
+                            <select id="select-currency">
+                                <option value="USD">Dollar</option>
+                                <option value="EUR">Euro</option>
+                            </select>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="form-section">
+        <div class="row d-flex">
+            <div class="col s12 m6 m-auto">
+                <div class="card teal lighten-4">
+                    <form class="card-order">
+                        <div class="card-content white-text">
+                            <span class="card-title">Card Title</span>
+                            <div class="input-field col s12">
+                                <input type="text" id="input-origin" class="autocomplete">
+                                <label for="input-origin">Origin</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input type="text" id="input-destination" class="autocomplete">
+                                <label for="input-destination">destination</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input type="text" class="datepicker" id="input-date-depart">
+                                <label for="input-date-depart">Date depart</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input type="text" class="datepicker" id="input-date-return">
+                                <label for="input-date-return">Date return</label>
+                            </div>
+                        </div>
+                        <div class="card-action teal lighten-2 d-flex">
+                            <button class="waves-effect waves-light green lighten-2 btn m-right" type="submit"
+                                name="action">Search
+                                <i class="material-icons right">send</i>
+                            </button>
+                            <button class="waves-effect waves-light red lighten-1 btn" type="reset" name="action">Reset
+                                <i class="material-icons right">close</i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
